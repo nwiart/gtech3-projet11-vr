@@ -16,7 +16,7 @@ public class MoveShader : MonoBehaviour
         VaryShaderPropertiesOverTime(pr);
     }
     
-    private IEnumerator VaryShaderPropertiesOverTime(ParticleSystemRenderer a)
+    private IEnumerator VaryShaderPropertiesOverTime(ParticleSystemRenderer pr)
     {
         float elapsedTime = 0f;
         float duration = 2f; // Durée totale de la variation, ajustez selon vos besoins.
@@ -24,13 +24,13 @@ public class MoveShader : MonoBehaviour
         while (elapsedTime < duration)
         {
             float normalizedTime = elapsedTime / duration;
-            a.material.SetFloat("_Width", _width.Evaluate(normalizedTime));
-            a.material.SetFloat("_Height", _height.Evaluate(normalizedTime));
+            pr.material.SetFloat("_Width", _width.Evaluate(normalizedTime));
+            pr.material.SetFloat("_Height", _height.Evaluate(normalizedTime));
             yield return null;
             elapsedTime += Time.deltaTime;
         }
         
-        a.material.SetFloat("_Width", _width.Evaluate(1f));
-        a.material.SetFloat("_Hidth", _height.Evaluate(1f));
+        pr.material.SetFloat("_Width", _width.Evaluate(1f));
+        pr.material.SetFloat("_Hidth", _height.Evaluate(1f));
     }
 }
