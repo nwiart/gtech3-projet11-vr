@@ -4778,7 +4778,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f294cdd6997e4134f8966b4e187a2237, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4857,8 +4857,17 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.4926254
-      value: 0.7440964
+      time: 0.20559542
+      value: 0.27834868
+      inSlope: 2.152074
+      outSlope: 2.152074
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.45859084
+      value: 0.20042342
       inSlope: 0.016141184
       outSlope: 0.016141184
       tangentMode: 0
@@ -4866,8 +4875,17 @@ MonoBehaviour:
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 1.0010976
-      value: -0.0018470353
+      time: 0.6651657
+      value: 0.33458838
+      inSlope: -0.26474676
+      outSlope: -0.26474676
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9606923
+      value: 0.015364878
       inSlope: -0.021366982
       outSlope: -0.021366982
       tangentMode: 0
@@ -4883,20 +4901,38 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0
       value: 0
-      inSlope: 1
-      outSlope: 1
+      inSlope: 4.255041
+      outSlope: 4.255041
       tangentMode: 34
       weightedMode: 0
       inWeight: 0
-      outWeight: 0
+      outWeight: 0.33333334
     - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 1
-      outSlope: 1
+      time: 0.15597823
+      value: 0.6636938
+      inSlope: 51.72117
+      outSlope: 51.72117
       tangentMode: 34
       weightedMode: 0
-      inWeight: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.23265344
+      value: 8.2689
+      inSlope: 49.181652
+      outSlope: 49.181652
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9230979
+      value: 7.699981
+      inSlope: -0.8239891
+      outSlope: -0.8239891
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
