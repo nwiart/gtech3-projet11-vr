@@ -173,8 +173,8 @@ namespace UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets
 
         void RayInteractorUpdate()
         {
-            if (m_RayInteractor != null)
-                m_RayInteractor.gameObject.SetActive(!m_Teleporting);
+            //if (m_RayInteractor != null)
+            //    m_RayInteractor.gameObject.SetActive(!m_Teleporting);
         }
 
         void OnRaySelectEntered(SelectEnterEventArgs args)
