@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.XR.Interaction.Toolkit;
 
 public class SpellBook : MonoBehaviour
@@ -12,6 +13,8 @@ public class SpellBook : MonoBehaviour
     private GameObject _disappearParticles;
 
     private XRGrabInteractable _interactable;
+
+    public UnityEvent OnUnlock;
 
 
     // Start is called before the first frame update
@@ -41,6 +44,8 @@ public class SpellBook : MonoBehaviour
         Debug.Log(_skillClass);
 
         yield return new WaitForSeconds(0.6F);
+
+        OnUnlock.Invoke();
 
         Instantiate(_disappearParticles, transform.position, transform.rotation);
         Destroy(gameObject);
