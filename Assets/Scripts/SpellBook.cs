@@ -41,7 +41,7 @@ public class SpellBook : MonoBehaviour
 
     private IEnumerator AcquireSpell()
     {
-        Debug.Log(_skillClass);
+        if (_skillClass != null) GameManager.Instance.GetPlayer().Skills.Add(_skillClass);
 
         yield return new WaitForSeconds(0.6F);
 

@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 364ae6124ef17064d8f64fa3f36d89a5, type: 3}
+  m_Name: SkillFireBenderSO
+  m_EditorClassIdentifier: 
+  _flamePrefab: {fileID: 4426903873466844490, guid: f51a616cab1be0f458df8c4be2d9ba86, type: 3}

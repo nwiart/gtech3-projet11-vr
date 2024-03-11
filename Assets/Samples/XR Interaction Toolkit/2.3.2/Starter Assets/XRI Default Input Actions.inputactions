@@ -2104,6 +2104,62 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Spell Cast",
+            "id": "182b6986-4e04-4884-a7a3-ff76366f23e1",
+            "actions": [
+                {
+                    "name": "CastStart",
+                    "type": "Button",
+                    "id": "106b9cdc-faa9-4be8-8d7d-89553fef55d7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "7234702c-a28b-45f1-890f-2da5eceb127a",
+                    "path": "<XRController>{LeftHand}/triggerButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CastStart",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Spell Trace",
+            "id": "c35b9aae-95bf-4c44-8d13-d1d2bb9158bd",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "bc4ee29d-68c1-4171-b167-c5a0c9a05f81",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "fa3fbdd1-3527-4de1-9642-466dac3f0072",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
