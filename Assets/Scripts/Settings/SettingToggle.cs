@@ -9,10 +9,10 @@ public class SettingToggle : MonoBehaviour
 	private GameObject _optionGrab;
 
 	[SerializeField]
-	private Material _materialOn;
+	private Material[] _materialsOn;
 
 	[SerializeField]
-	private Material _materialOff;
+	private Material[] _materialsOff;
 
 	[SerializeField]
 	private float _buttonAppearDelay = 2.0F;
@@ -84,8 +84,6 @@ public class SettingToggle : MonoBehaviour
 
 	private void UpdateMaterials()
 	{
-		Material[] mats = _meshRenderer.materials;
-		mats[0] = (_state ? _materialOn : _materialOff);
-		_meshRenderer.materials = mats;
+		_meshRenderer.materials = (_state ? _materialsOn : _materialsOff); ;
 	}
 }
