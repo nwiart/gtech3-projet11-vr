@@ -748,7 +748,7 @@ GameObject:
   - component: {fileID: 3196039650414588986}
   - component: {fileID: 2014594154558487455}
   - component: {fileID: 4328436414365142869}
-  - component: {fileID: 1648279217860181975}
+  - component: {fileID: 9026216717023095722}
   m_Layer: 0
   m_Name: wall_corner_scaffold (1)
   m_TagString: Untagged
@@ -821,8 +821,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1648279217860181975
-BoxCollider:
+--- !u!64 &9026216717023095722
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -839,9 +839,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.5, y: 4, z: 2.500061}
-  m_Center: {x: 0.75, y: 2, z: 0.7500305}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3942277561970235319, guid: 0ed8b7addaaace5419a45145e9e31ec0, type: 3}
 --- !u!1 &3545765941092326088
 GameObject:
   m_ObjectHideFlags: 0
@@ -1041,7 +1042,7 @@ GameObject:
   - component: {fileID: 3781300316738065976}
   - component: {fileID: 276473366468204957}
   - component: {fileID: 2608371736095321431}
-  - component: {fileID: 6106880245736368701}
+  - component: {fileID: 589965730591486381}
   m_Layer: 0
   m_Name: wall_corner_scaffold (3)
   m_TagString: Untagged
@@ -1114,8 +1115,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6106880245736368701
-BoxCollider:
+--- !u!64 &589965730591486381
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1132,9 +1133,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.5000005, y: 4, z: 2.5000618}
-  m_Center: {x: 0.7500002, y: 2, z: 0.7500307}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3942277561970235319, guid: 0ed8b7addaaace5419a45145e9e31ec0, type: 3}
 --- !u!1 &4954828792195091483
 GameObject:
   m_ObjectHideFlags: 0
@@ -1302,7 +1304,7 @@ GameObject:
   - component: {fileID: 5623259139123909582}
   - component: {fileID: 8765711254858505323}
   - component: {fileID: 6792264658920990881}
-  - component: {fileID: 1803866116951948585}
+  - component: {fileID: 584340989607597892}
   m_Layer: 0
   m_Name: wall_corner_scaffold
   m_TagString: Untagged
@@ -1375,8 +1377,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1803866116951948585
-BoxCollider:
+--- !u!64 &584340989607597892
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1393,9 +1395,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.5000005, y: 4, z: 2.5000618}
-  m_Center: {x: 0.7500002, y: 2, z: 0.7500307}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3942277561970235319, guid: 0ed8b7addaaace5419a45145e9e31ec0, type: 3}
 --- !u!1 &5272878399299442586
 GameObject:
   m_ObjectHideFlags: 0
@@ -1805,7 +1808,7 @@ GameObject:
   - component: {fileID: 6343590176645059512}
   - component: {fileID: 8045450054315088925}
   - component: {fileID: 5207244717741959383}
-  - component: {fileID: 7680592752620448740}
+  - component: {fileID: 627637463319964046}
   m_Layer: 0
   m_Name: wall_corner_scaffold (2)
   m_TagString: Untagged
@@ -1878,8 +1881,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7680592752620448740
-BoxCollider:
+--- !u!64 &627637463319964046
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1896,9 +1899,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.5, y: 4, z: 2.500061}
-  m_Center: {x: 0.75, y: 2, z: 0.7500305}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3942277561970235319, guid: 0ed8b7addaaace5419a45145e9e31ec0, type: 3}
 --- !u!1 &6400292536906970063
 GameObject:
   m_ObjectHideFlags: 0
@@ -2155,6 +2159,7 @@ GameObject:
   - component: {fileID: 6805928874019593198}
   - component: {fileID: 4935285617609446034}
   - component: {fileID: 5550578535785823474}
+  - component: {fileID: 206864463195680832}
   m_Layer: 0
   m_Name: wall_doorway_scaffold_door
   m_TagString: Untagged
@@ -2227,6 +2232,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &206864463195680832
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7146402887718333466}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2, y: 2.75, z: 0.7735462}
+  m_Center: {x: -0.8200989, y: 1.375, z: -0.00000020861626}
 --- !u!1 &7259287504758585182
 GameObject:
   m_ObjectHideFlags: 0
