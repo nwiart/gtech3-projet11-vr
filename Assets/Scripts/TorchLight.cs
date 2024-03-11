@@ -18,6 +18,6 @@ public class TorchLight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _light.intensity = Random.Range(_initialIntensity - 1.0F, _initialIntensity + 0.5F);
+        _light.intensity = Random.Range(_initialIntensity * 0.7F, _initialIntensity * 1.2F);
     }
 }
