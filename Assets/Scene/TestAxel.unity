@@ -131,6 +131,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1570447785}
     m_Modifications:
+    - target: {fileID: 973374195087362413, guid: 899865a3395835c4daae98455f207ce7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.489
+      objectReference: {fileID: 0}
     - target: {fileID: 4954828792195091483, guid: 899865a3395835c4daae98455f207ce7, type: 3}
       propertyPath: m_Name
       value: MainMenuRoom
