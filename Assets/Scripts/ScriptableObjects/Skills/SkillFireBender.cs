@@ -13,6 +13,11 @@ public class SkillFireBender : Skill
     private GameObject _flame = null;
 
 
+    public override void OnUnlock(Player player)
+    {
+
+    }
+
     public override void SpellSphere()
     {
     }

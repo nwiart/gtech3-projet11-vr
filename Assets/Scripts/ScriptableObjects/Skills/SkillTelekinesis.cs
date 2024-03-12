@@ -2,15 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+[CreateAssetMenu(menuName = "Skills/Telekinesis")]
 public class SkillTelekinesis : Skill
 {
-    public override void SimpleActivate(Player p)
+    public override void OnUnlock(Player player)
     {
-        throw new System.NotImplementedException();
-    }
-
-    public override void SpellSphere()
-    {
-        throw new System.NotImplementedException();
+        player.SetRayInteractorsEnabled(true);
     }
 }
