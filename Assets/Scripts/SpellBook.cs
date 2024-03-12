@@ -41,10 +41,9 @@ public class SpellBook : MonoBehaviour
 
     private IEnumerator AcquireSpell()
     {
-        Debug.Log(_skillClass);
-
         yield return new WaitForSeconds(0.6F);
 
+        if (_skillClass != null) GameManager.Instance.GetPlayer().UnlockSkill(_skillClass);
         OnUnlock.Invoke();
 
         Instantiate(_disappearParticles, transform.position, transform.rotation);
