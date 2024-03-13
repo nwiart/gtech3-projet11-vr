@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private GameObject _camera;
 
+	private bool _isGameEnded;
+
 
     void Start()
 	{
@@ -26,7 +29,17 @@ public class GameManager : MonoBehaviour
 		_instance = this;
 	}
 
-	void OnDestroy()
+
+    private void Update()
+    {
+		if (_isGameEnded)
+		{
+			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		}
+    }
+
+
+    void OnDestroy()
 	{
 		_instance = null;
 	}
@@ -40,5 +53,10 @@ public class GameManager : MonoBehaviour
     public GameObject GetPlayerCamera()
     {
         return _camera;
+    }
+
+    public void GameEnded(bool EndFlag)
+    {
+        _isGameEnded = EndFlag;
     }
 }
