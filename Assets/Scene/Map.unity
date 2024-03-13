@@ -1389,8 +1389,6 @@ BoxCollider:
   m_CorrespondingSourceObject: {fileID: 8136703382798413784, guid: 87f441e36c9514d4389c73112ee7983e, type: 3}
   m_PrefabInstance: {fileID: 1489686698}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-=======
 --- !u!114 &726159037 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 149136711696579440, guid: bd5fbc9473007fa43a3da7c908788d3e, type: 3}
@@ -1486,7 +1484,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -845910175149293702, guid: 328a9088914bfa24896585ec5265574e, type: 3}
->>>>>>> Stashed changes
 --- !u!1001 &777117423
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4904,13 +4901,10 @@ SceneRoots:
   - {fileID: 710423462}
   - {fileID: 1580726018}
   - {fileID: 1261740873}
-<<<<<<< Updated upstream
   - {fileID: 384015783670735610}
-=======
   - {fileID: 759056895}
   - {fileID: 1184423904}
   - {fileID: 1515064861}
   - {fileID: 1603188063}
   - {fileID: 1817163873}
   - {fileID: 91611392}
->>>>>>> Stashed changes
