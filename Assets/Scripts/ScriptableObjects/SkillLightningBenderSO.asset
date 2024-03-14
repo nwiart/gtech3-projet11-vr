@@ -12,3 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3c05e9582add0e4d8b5759fa87e6774, type: 3}
   m_Name: SkillLightningBenderSO
   m_EditorClassIdentifier: 
+  _lightningBoltPrefab: {fileID: 2343242436808765906, guid: 5b89ba9601b407f4ab22b945e26a0b4a, type: 3}

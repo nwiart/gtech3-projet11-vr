@@ -2955,7 +2955,7 @@ PrefabInstance:
     - target: {fileID: 9047821446182309807, guid: 87f441e36c9514d4389c73112ee7983e, type: 3}
       propertyPath: _skillClass
       value: 
-      objectReference: {fileID: 11400000, guid: 550606b2375f2bb40ab1981570542356, type: 2}
+      objectReference: {fileID: 11400000, guid: 176538078991f4f46a06234481158395, type: 2}
     - target: {fileID: 9047821446182309807, guid: 87f441e36c9514d4389c73112ee7983e, type: 3}
       propertyPath: OnUnlock.m_PersistentCalls.m_Calls.Array.size
       value: 1

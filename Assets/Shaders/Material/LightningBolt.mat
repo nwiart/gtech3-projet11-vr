@@ -38,14 +38,14 @@ Material:
     m_Ints: []
     m_Floats:
     - _DistortionAmount: 0.2
-    - _Heigth: 0.5
-    - _NoiseScale: 25
+    - _Heigth: 0.01
+    - _NoiseScale: 40
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Width: 0.1
+    - _Width: 1
     m_Colors:
     - _Color: {r: 0, g: 0.97368425, b: 1, a: 0}
-    - _NoiseSpeed: {r: 0.8, g: 0, b: 0, a: 0}
+    - _NoiseSpeed: {r: 0, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &7596345756024145614
 MonoBehaviour:
