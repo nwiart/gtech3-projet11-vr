@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private GameObject _camera;
 
-	private bool _isGameEnded;
+	private bool _isGameEnded = false;
 
 
     void Start()
